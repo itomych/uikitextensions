@@ -1,0 +1,6 @@
+framework module DDUIKitExtensions {
+  umbrella header "DDUIKitExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,0 @@
-framework module UIKitExtensions {
-  umbrella header "UIKitExtensions-umbrella.h"
-
-  export *
-  module * { export * }
-}

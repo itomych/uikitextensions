@@ -1,11 +1,23 @@
 use_frameworks!
 
 target 'UIKitExtensions_Example' do
-  pod 'UIKitExtensions', :path => '../'
 
+  pod 'DDUIKitExtensions/CGSize', :path => '../'
+  pod 'DDUIKitExtensions/UIColor', :path => '../'
+  pod 'DDUIKitExtensions/UIImage', :path => '../'
+  pod 'DDUIKitExtensions/UINavigationController', :path => '../'
+  pod 'DDUIKitExtensions/UITableView', :path => '../'
+  pod 'DDUIKitExtensions/UIView', :path => '../'
+  pod 'DDUIKitExtensions/UIViewController', :path => '../'
+  pod 'DDUIKitExtensions/UITextField', :path => '../'
+  pod 'DDUIKitExtensions/UIApplication', :path => '../'
+  pod 'DDUIKitExtensions/UIKit+Sketch', :path => '../'
+  pod 'DDUIKitExtensions/PaddedLabel', :path => '../'
+  
   target 'UIKitExtensions_Tests' do
     inherit! :search_paths
 
 
   end
 end
+  

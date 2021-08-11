@@ -1,18 +1,36 @@
 PODS:
-  - UIKitExtensions (0.9.0):
-    - UIKitExtensions/Core (= 0.9.0)
-  - UIKitExtensions/Core (0.9.0)
+  - DDUIKitExtensions/CGSize (0.11.1)
+  - DDUIKitExtensions/PaddedLabel (0.11.1)
+  - DDUIKitExtensions/UIApplication (0.11.1)
+  - DDUIKitExtensions/UIColor (0.11.1)
+  - DDUIKitExtensions/UIImage (0.11.1)
+  - "DDUIKitExtensions/UIKit+Sketch (0.11.1)"
+  - DDUIKitExtensions/UINavigationController (0.11.1)
+  - DDUIKitExtensions/UITableView (0.11.1)
+  - DDUIKitExtensions/UITextField (0.11.1)
+  - DDUIKitExtensions/UIView (0.11.1)
+  - DDUIKitExtensions/UIViewController (0.11.1)
 
 DEPENDENCIES:
-  - UIKitExtensions (from `../`)
+  - DDUIKitExtensions/CGSize (from `../`)
+  - DDUIKitExtensions/PaddedLabel (from `../`)
+  - DDUIKitExtensions/UIApplication (from `../`)
+  - DDUIKitExtensions/UIColor (from `../`)
+  - DDUIKitExtensions/UIImage (from `../`)
+  - "DDUIKitExtensions/UIKit+Sketch (from `../`)"
+  - DDUIKitExtensions/UINavigationController (from `../`)
+  - DDUIKitExtensions/UITableView (from `../`)
+  - DDUIKitExtensions/UITextField (from `../`)
+  - DDUIKitExtensions/UIView (from `../`)
+  - DDUIKitExtensions/UIViewController (from `../`)
 
 EXTERNAL SOURCES:
-  UIKitExtensions:
+  DDUIKitExtensions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIKitExtensions: 675491b5442d12dead24eaa02cffc99fd4cc6cdc
+  DDUIKitExtensions: cac5acb2acaba5e1a2ef0101f00cd5b0b17903e6
 
-PODFILE CHECKSUM: f5ac2579a79b49f44f573c44eedf0ed5862ee017
+PODFILE CHECKSUM: c77c8962f7214862722fee9866cf945dd7b7f76a
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.2

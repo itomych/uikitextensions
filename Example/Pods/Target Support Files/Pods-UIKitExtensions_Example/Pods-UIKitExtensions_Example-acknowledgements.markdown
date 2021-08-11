@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## UIKitExtensions
+## DDUIKitExtensions
 
 Copyright (c) 2019 DashDevs <hello@dashdevs.com>
 
