@@ -13,7 +13,6 @@ let package = Package(
     targets: [
         .target( name: "CGSize", dependencies: []),
         .target( name: "UIViewController", dependencies: []),
-        .testTarget( name: "DDUIKitExtensionsTests", dependencies: ["DDUIKitExtensions"]),
     ],
     swiftLanguageVersions: [.v5]
 )
