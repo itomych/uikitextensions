@@ -6,3 +6,8 @@
 //
 
 @_exported import DDUIColorExtensionObjc
+
+class Asd {
+    func asdf() {
+    }
+}
