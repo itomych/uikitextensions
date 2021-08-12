@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension CGSize {
     /// Proportional relationship between width and height
