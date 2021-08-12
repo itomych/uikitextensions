@@ -16,11 +16,10 @@ let package = Package(
         .target( name: "DDUIViewControllerExtension", dependencies: []),
         .target( name: "DDUIColorExtension", 
                  dependencies: ["DDUIColorExtensionObjc"], 
-                 path: "Sources/DDUIColorExtension/", 
-                 exclude: ["DDUIColorExtensionObjC"]),
+                 path: "Sources/DDUIColorExtension/DDUIColorExtension/"),
         .target( name: "DDUIColorExtensionObjc",
                  dependencies: [],
-                 path: "Sources/DDUIColorExtension/DDUIColorExtensionObjC"),
+                 path: "Sources/DDUIColorExtension/DDUIColorExtensionObjC/"),
     ],
     swiftLanguageVersions: [.v5]
 )
