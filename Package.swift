@@ -16,7 +16,7 @@ let package = Package(
         .target( name: "DDUIViewControllerExtension", dependencies: []),
         .target( name: "DDUIColorExtension", 
                  path: "Sources/DDUIColorExtension/", 
-                 dependencies: [DDUIColorExtensionObjc], 
+                 dependencies: ["DDUIColorExtensionObjc"], 
                  exclude: ["DDUIColorExtensionObjC"]),
         .target( name: "DDUIColorExtensionObjc", path: "Sources/DDUIColorExtension/DDUIColorExtensionObjC", dependencies: []),
     ],
