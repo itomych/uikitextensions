@@ -7,14 +7,14 @@ let package = Package(
     name: "DDUIKitExtensions",
     platforms: [.iOS(.v10)],
     products: [
-        .library( name: "CGSizeExtension", targets: ["CGSize"]),
-        .library( name: "UIViewControllerExtension", targets: ["UIViewController"]),
-        .library( name: "UIColorExtensions", targets: ["UIColor"]),
+        .library( name: "CGSizeExtension", targets: ["CGSizeExtension"]),
+        .library( name: "UIViewControllerExtension", targets: ["UIViewControllerExtension"]),
+        .library( name: "UIColorExtensions", targets: ["UIColorExtensions"]),
     ],
     targets: [
-        .target( name: "CGSize", dependencies: []),
-        .target( name: "UIViewController", dependencies: []),
-        .target( name: "UIColor", dependencies: []),
+        .target( name: "CGSizeExtension", dependencies: []),
+        .target( name: "UIViewControllerExtension", dependencies: []),
+        .target( name: "UIColorExtensions", dependencies: []),
     ],
     swiftLanguageVersions: [.v5]
 )
